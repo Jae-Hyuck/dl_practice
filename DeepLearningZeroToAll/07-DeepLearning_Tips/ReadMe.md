@@ -6,7 +6,7 @@
 
 - sigmoid를 activation function으로 해서 deep하게 아키텍쳐 만들면 학습 불가
 - backpropagation에서 입력단으로 갈수록 gradient가 줄어서 영향 미비
-- 이유를 좀더 자세히 살펴보면, 아래의 뉴런그림에서 backpropagation 될 때, chain rule에 의해 $\frac{\partial f}{\partial w} = \frac{\partial f}{\partial g} \frac{\partial g}{\partial w} $ 인데, $\frac{\partial g}{\partial w} = x$ 이므로, sigmoid라면 값이 0~1 사이이다. input 단으로 갈수록, 0~1사이의 값들이 chain rule에 의해서 계속 곱해지게 되고, gradient가  매우 작은 값을 가지게 된다.
+- 이유를 좀더 자세히 살펴보면, 아래의 뉴런그림에서 backpropagation 될 때, chain rule에 의해 $\frac{\partial f}{\partial w} = \frac{\partial f}{\partial g} \frac{\partial g}{\partial w} $ 인데, $\frac{\partial g}{\partial w} = x$ 이므로, sigmoid라면 값이 0과 1사이이다. input 단으로 갈수록, 0과 1사이의 값들이 chain rule에 의해서 계속 곱해지게 되고, gradient가  매우 작은 값을 가지게 된다.
 
 ![vanishing_gradient](../assets/07/vanishing_gradient.jpg)
 

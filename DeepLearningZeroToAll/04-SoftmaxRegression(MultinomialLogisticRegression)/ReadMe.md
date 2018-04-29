@@ -4,7 +4,7 @@
 
 이전에 배운 logistic regression을 이용한 분류는 결국 아래와 같이 input feature 공간에서 2개의 카테고리로 나누는 hyperplane을 만드는 셈이다.
 
-![hyperplane1](..\assets\04\hyperplane1.jpg)
+![hyperplane1](../assets/04/hyperplane1.jpg)
 
 카테고리가 늘어나면 아래와 같은 방식으로 판별 가능하다.
 

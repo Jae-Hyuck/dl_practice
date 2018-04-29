@@ -2,7 +2,7 @@
 
 Input dim마다 scale이 다르면 (ex. 아래 그림), 같은 learning rate 주어졌을 때 상대적인 학습률이 다르므로, 항상 Normalization을 시켜줘야한다.
 
-![Normalization](..\assets\05\before_normalization.jpg)
+![Normalization](../assets/05/before_normalization.jpg)
 
 ## Solutions for overfitting
 
